@@ -1,0 +1,97 @@
+body{
+    background-color:cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* 页眉 */
+header{
+    margin-top: 1%;
+}
+/* 图片一 */
+#hi{
+    height: 15%;
+    width: 20%;
+}
+/* 图片二 */
+#poem{
+    float: right;   
+}
+
+/* 导航区 */
+.top{
+     background-color:bisque;     
+}
+
+ul{
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+}
+li {
+    display: inline;
+    margin: 5px;
+}
+
+nav  li.selected {
+    background-color: #c8b99c;
+    
+}
+
+a{
+    text-decoration: none;
+}
+/* 设置链接的颜色 */
+a:link{
+    color:black;
+    text-decoration: none;
+}
+a:visited{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color: darkturquoise;
+    text-decoration: none;
+}
+
+/* 绝对位置图片 */
+#pig{
+    position: absolute;
+    top: 25%;
+    right: 35%;
+}
+/* 图片的大小 */
+#pigg{
+    width: 80px;
+    height: 80px;
+}
+
+/* 表单 */
+form{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    display: table;
+    padding: 20px;
+    background-color: bisque;
+    border: cadetblue dashed 5px
+   
+}
+
+.tablerow{
+    display: table-row;
+}
+
+.tablerow p{
+    display: table-cell;
+    padding: 5px;
+}
+
+
+.text{
+    text-align: right;
+
+}

@@ -1,0 +1,125 @@
+body{
+    background-color:cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* 页眉 */
+header{
+    margin-top: 1%;
+}
+/* 图片一 */
+#hi{
+    height: 15%;
+    width: 20%;
+}
+/* 图片二 */
+#poem{
+    float: right;   
+}
+
+/* 导航区 */
+.top{
+     background-color:bisque;     
+}
+
+ul{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+li {
+    display: inline;
+    margin: 5px;
+}
+
+nav  li.selected {
+    background-color: #c8b99c;    
+}
+
+a{
+    text-decoration: none;
+}
+/* 设置链接的颜色 */
+a:link{
+    color:black;
+    text-decoration: none;
+}
+a:visited{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color: darkturquoise;
+    text-decoration: none;
+}
+
+/* 内容区 */
+#main{
+    margin-top: 5px;
+    display: table;
+    margin-top: 1%;
+    border-spacing: 10px;
+    word-wrap:break-word;
+}
+
+/* 内容以表格呈现 */
+table{
+    display: table-row;
+    table-layout: fixed;
+}
+
+/* 内容 */
+#content1{
+    border-right:  solid antiquewhite 1px;
+    display: table-cell;
+    width: 30%;
+    padding: 15px;
+    text-align: center;
+}
+
+#content2{
+    display: table-cell;
+    width: 30%;
+    padding: 15px;
+    text-align: center;
+
+}
+
+/* 标题 */
+h1{
+    color:whitesmoke;
+}
+
+/* 文本 */
+.text{
+    color: white;
+}
+/* 视频 */
+video{
+    width: 80%;
+}
+
+
+/* 固定位置图片 */
+#cat{
+    position: fixed;
+    top: 64%;
+    left: 1%;
+}
+#catt{
+    width: 80%;
+}
+/* 绝对位置图片 */
+#pig{
+    position: absolute;
+    top: 17%;
+    right: 15%;
+}
+/* 图片的大小 */
+#pigg{
+    width: 80px;
+    height: 80px;
+}

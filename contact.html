@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>contact</title>
+    <link rel="stylesheet" type="text/css" href="contact.css" />
+</head>
+<body>
+    <!-- 页眉区 -->
+    <header>
+        <!-- 放置两张图片 -->
+        <img id="hi" src="../image/head1.png" height="20%" width="50%" />
+        <!-- 浮动靠右 -->
+        <img id="poem" src="../image/head2.png" height="20%" width="50%" />
+      </header>
+      <!-- 导航区 -->
+      <nav class="top">
+        <ul>
+          <li><a href="../homepage/homePage.html">个人首页</a></li>
+          <li><a href="../academic/academic.html">学术展示</a></li>
+          <li><a href="../talent/talent.html">才艺展示</a></li>
+          <li class="selected"><a href="contact.html">联系我</a></li>
+        </ul>
+      </nav>
+
+ <!-- 绝对布局插图 -->
+ <div id="pig">
+  <img id="pigg" src="../image/小猪.png">
+</div>
+
+      <!-- 表单 -->
+      <form action="" method="post">
+          <div class="tablerow">
+            <!-- 姓名 -->
+            <p class="text">姓名：</p>
+            <p>
+              <input type="text" name="name" value placeholder="Name" required></input>
+            </p>
+          </div>
+
+          <!-- 性别为单选 -->
+          <div class="tablerow">
+            <p class="text">性别：</p>
+            <p>
+              <input type="radio" name="sex" value="woman">女&nbsp;&nbsp;&nbsp;
+              <input type="radio" name="sex" value="man">男
+            </p>
+          </div>
+
+          <!-- 年龄 -->
+          <div class="tablerow">
+            <p class="text">年龄：</p>
+            <p>
+              <input type="text" name="age" value placeholder="Age" required></input>
+            </p>
+          </div>
+
+          <!-- 联系方式为多选 -->
+          <div class="tablerow">
+            <p class="text">联系方式：</p>
+            <p >
+              <input type="checkbox" name="phone" value="phone">电话&nbsp;&nbsp;&nbsp;
+              <input type="text" name="number" value placeholder="phone" ></input>         
+              <br>
+             <input type="checkbox" name="QQ" value="QQ">QQ&nbsp;&nbsp;&nbsp;
+             <input type="text" name="number" value placeholder="QQ" ></input>
+             <br>
+            <input type="checkbox" name="WX" value="WX">WX&nbsp;&nbsp;&nbsp;
+            <input type="text" name="number" value placeholder="WX" ></input>
+            </p>
+          </div>
+
+          <!-- 文字框 -->
+          <div class="tablerow">
+            <p></p>
+            <p aria-colspan="3">
+              <textarea name="comments" rows="8" cols="40" wrap="hard" placeholder="有什么想对我说的都可以写哦～"></textarea>
+                 <!-- <div contenteditable="plaintext-only"></div> -->
+            </p>
+          </div>
+
+          <!-- 提交 -->
+          <div class="tablerow">
+            <p></p>
+            <p>
+              <input type="submit" value="确定">
+            </p>
+          </div>
+
+      </form>
+</body>
+</html>

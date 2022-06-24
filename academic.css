@@ -1,0 +1,100 @@
+body{
+    background-color:cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* 页眉 */
+header{
+    margin-top: 1%;
+}
+/* 图片一 */
+#hi{
+    height: 15%;
+    width: 20%;
+}
+/* 图片二 */
+#poem{
+    float: right;   
+}
+
+/* 导航区 */
+.top{
+     background-color:bisque;     
+}
+
+ul{
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+}
+li {
+    display: inline;
+    margin: 5px;
+}
+
+nav  li.selected {
+    background-color: #c8b99c;
+    
+}
+
+a{
+    text-decoration: none;
+}
+/* 设置链接的颜色 */
+a:link{
+    color:black;
+    text-decoration: none;
+}
+a:visited{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color: darkturquoise;
+    text-decoration: none;
+}
+
+/* 内容区 */
+#main{
+    background-color:antiquewhite;
+    margin-top: 5px;
+    /* border: black solid 2px; */
+}
+
+/* 模块区 */
+.content{
+    /* margin: 20px; */
+    margin-top: 5px;
+    border: cadetblue dashed 5px;
+
+
+}
+
+/* flex布局 */
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    width: 80%;
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+/* 布局内容 */
+table{
+    order: 1;
+   
+}
+
+/* 布局内容2 */
+.flexcont{
+    order: 2;
+    word-break: normal;
+
+}
+
